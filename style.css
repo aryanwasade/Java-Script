@@ -1,0 +1,52 @@
+/* ============================================
+   EXTERNAL CSS (style.css)
+   Linked to the HTML using:
+   <link rel="stylesheet" href="style.css">
+   ============================================ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.welcome-text {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #16a085;
+}
+
+button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.note {
+  margin-top: 30px;
+  font-size: 0.85em;
+  color: #888;
+}
